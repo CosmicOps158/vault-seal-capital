@@ -3,7 +3,7 @@ import { DashboardStats } from "@/components/DashboardStats";
 import { FundAllocation } from "@/components/FundAllocation";
 import { PrivateLedger } from "@/components/PrivateLedger";
 import { StockTicker } from "@/components/StockTicker";
-import { FHEEncryption } from "@/components/FHEEncryption";
+import { SimpleFHE } from "@/components/SimpleFHE";
 
 const Index = () => {
   return (
@@ -24,7 +24,7 @@ const Index = () => {
         </div>
 
         {/* FHE Encryption Section */}
-        <FHEEncryption />
+        <SimpleFHE />
 
         {/* Dashboard Stats */}
         <DashboardStats />
