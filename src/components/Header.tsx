@@ -1,5 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { Shield } from "lucide-react";
+import { Lock, TrendingUp } from "lucide-react";
 import vaultLogo from "@/assets/vault-logo.png";
 
 export const Header = () => {
@@ -12,14 +12,19 @@ export const Header = () => {
             <h1 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Vault Seal Capital
             </h1>
-            <p className="text-xs text-muted-foreground">Confidential Private Equity Fund</p>
+            <p className="text-xs text-muted-foreground">Advanced Private Equity Fund</p>
           </div>
         </div>
 
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-            <Shield className="h-4 w-4 text-success" />
-            <span>FHE Encrypted</span>
+            <Lock className="h-4 w-4 text-blue-500" />
+            <span>FHE Secured</span>
+          </div>
+          
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <TrendingUp className="h-4 w-4 text-green-500" />
+            <span>Live</span>
           </div>
           
           <ConnectButton 

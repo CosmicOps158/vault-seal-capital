@@ -3,6 +3,7 @@ import { DashboardStats } from "@/components/DashboardStats";
 import { FundAllocation } from "@/components/FundAllocation";
 import { PrivateLedger } from "@/components/PrivateLedger";
 import { StockTicker } from "@/components/StockTicker";
+import { FHEEncryption } from "@/components/FHEEncryption";
 
 const Index = () => {
   return (
@@ -21,6 +22,9 @@ const Index = () => {
             and verifiable ownership through blockchain technology.
           </p>
         </div>
+
+        {/* FHE Encryption Section */}
+        <FHEEncryption />
 
         {/* Dashboard Stats */}
         <DashboardStats />
